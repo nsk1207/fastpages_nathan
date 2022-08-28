@@ -4,6 +4,7 @@ layout: post
 description: AP Calc AB, AP Physics, APEL, US History
 title: Other Subjects 
 categories: markdown
+comments: true
 ---
 # Other Subjects
 
