@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "\[APCSP\] Vocab Quiz Code",
+            "title": "APCSP - Vocab Quiz Code",
             "content": "Print question and return user input . import getpass, sys # Print question and return user input def question_with_response(num, prompt): if num &gt; 0: print(&quot;Question &quot; + str(num) + &quot;: &quot; + prompt) else: print(&quot;Question: &quot; + prompt) msg = input() return msg . Number of questions and correct answer counter . questions = 7 # Correct answer counter correct = 0 . Intro . print(&#39;Hello everyone!, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) rsp = question_with_response(0, &quot;Let&#39;s see how smart you are! Ready to take a quiz?&quot;) if rsp == &quot;no&quot;: print(&quot;Sorry, you must take it!&quot;) correct += 1 else: print(&quot;Okay!&quot;) . Hello everyone!, nsk1207 running /bin/python3 You will be asked 7 questions. Question: Let&#39;s see how smart you are! Ready to take a quiz? Okay! . Start questions . rsp = question_with_response(1, &quot;What command is used to include other functions that are developed?&quot;) if rsp == &quot;import&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(2, &quot;What command in this example is used to evaluate a response?&quot;) if rsp == &quot;if&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(3, &quot;Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition?&quot;) if rsp == &quot;expression&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(4, &quot;What is two or more lines of code called?&quot;) if rsp == &quot;sequence&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(5, &quot;What is the dynamic result of the input command?&quot;) if rsp == &quot;msg&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(6, &quot;What is a keyword in Python that defines a function?&quot;) if rsp == &quot;def&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(7, &quot;What is it called when you group a sequence of commands (often repeatedly)&quot;) if rsp == &quot;procedural abstraction&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) . Question 1: What command is used to include other functions that are developed? import is correct! Question 2: What command in this example is used to evaluate a response? if is correct! Question 3: Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition? if is incorrect! Question 4: What is two or more lines of code called? sequence is correct! Question 5: What is the dynamic result of the input command? if is incorrect! Question 6: What is a keyword in Python that defines a function? def is correct! Question 7: What is it called when you group a sequence of commands (often repeatedly) procedural abstraction is correct! . Calculate percentage and results . q_percent = 100 * correct / questions formatted_q_percent = &quot;{:.0f}&quot;.format(q_percent) # Rounding # Results print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions) + &quot; or &quot; + str(formatted_q_percent) + &quot;%&quot;) . nsk1207 you scored 5/7 or 71% .",
             "url": "https://nsk1207.github.io/fastpages_nathan/jupyter/2022/08/28/quiz.html",
             "relUrl": "/jupyter/2022/08/28/quiz.html",
@@ -13,7 +13,7 @@
   
     
         ,"post1": {
-            "title": "\[APCSP\] Nathan's Quiz",
+            "title": "APCSP - Nathan's Quiz",
             "content": "Vocab quiz . For my quiz, there are 7 different questions. Each is worth 1 point and at the end, the quiz will tell the score. I added the 3 questions Mr. Mortenson had + 4 new questions. I will now explain some of the things I added to my quiz code. At the start, I added a numbering system because I thought it would look organized. In addition, I was able to calculate the fraction score into a percentage that is rounded to the nearest integer number. . Click here for link .",
             "url": "https://nsk1207.github.io/fastpages_nathan/2022/08/28/Quiz.html",
             "relUrl": "/2022/08/28/Quiz.html",
@@ -24,7 +24,7 @@
   
     
         ,"post2": {
-            "title": "\[APCSP\] "Hello"",
+            "title": "APCSP - "Hello"",
             "content": "print(&quot;Hello Del Norte High School!!!&quot;) . Hello Del Norte High School .",
             "url": "https://nsk1207.github.io/fastpages_nathan/jupyter/2022/08/20/Nathan_nb.html",
             "relUrl": "/jupyter/2022/08/20/Nathan_nb.html",
@@ -35,7 +35,7 @@
   
     
         ,"post3": {
-            "title": "\[APCSP\] Nathan's Markdown Page",
+            "title": "APCSP - Nathan's Markdown Page",
             "content": "Markdown Posts . This is me in vscode . .",
             "url": "https://nsk1207.github.io/fastpages_nathan/2022/08/20/Nathan.html",
             "relUrl": "/2022/08/20/Nathan.html",
