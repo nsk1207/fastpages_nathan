@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vocab
-permalink: /about/
+permalink: /Vocab/
 ---
 
 Vocab from APCSP
