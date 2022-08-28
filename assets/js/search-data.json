@@ -58,9 +58,7 @@
 
   
   
-
-  
-      ,"page1": {
+      ,"page0": {
           "title": "About Me",
           "content": "I am a junior at Del Norte High school and I am in Computer Science Princples. .",
           "url": "https://nsk1207.github.io/fastpages_nathan/about/",
@@ -71,19 +69,7 @@
   
 
   
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-      ,"page7": {
+      ,"page1": {
           "title": "Vocab",
           "content": "Vocab from APCSP 1) Sequence - two or more lines of code 2) Jupyter Notebook - can run and write out certain code .",
           "url": "https://nsk1207.github.io/fastpages_nathan/Vocab/",
@@ -91,6 +77,20 @@
           "date": ""
       }
       
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
   
 
   
