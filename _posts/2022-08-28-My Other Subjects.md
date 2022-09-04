@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: AP Calc AB, AP Physics, APEL, US History
 title: Other Subjects 
-categories: markdown
+categories: week1
 comments: true
 ---
 # Other Subjects
