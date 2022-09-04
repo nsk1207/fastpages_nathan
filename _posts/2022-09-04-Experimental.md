@@ -26,14 +26,21 @@ body {
 <table>
 
 <tr>
-
+ Studious 
+<html>
+<style>
+body {
+  font-size: 20px;
+}
+</style>
+<body>
+<span style='font-size:50px;'>&#128511;</span>
 <tr>
         <td>Week 0</td>
         <td>
             <a href="">This week, I learned how to use the basic tools of VSCODE and github. I also learned how to create my first markdown and jupyter notebook pages on my blog.  </a>
         </td>
-        <td>
-           <td?><td>
+
     
  <tr>
         <td>Week 1</td>
