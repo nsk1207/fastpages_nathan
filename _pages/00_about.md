@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I am a junior at Del Norte High school and I am in Computer Science Princples. 
+I am a junior at Del Norte High school and I am in Computer Science Princples. I am  interested in computer science and I can't wait to learn a lot of new things. You can find my team below. 
 
 <p align="center">
     <img src="https://c.tenor.com/XmEgf6XjPRQAAAAM/skull.gif"
