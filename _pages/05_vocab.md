@@ -5,8 +5,8 @@ permalink: /Vocab/
 ---
 
 Terms, Ideas, etc.
-- Sequence - two or more lines of code
-- Jupyter Notebook - can run and write out certain code
+- sequence - two or more lines of code
+- jupyter notebook - can run and write out certain code
 - import - includes other functions that were previously developed
 - input - things put into the computer
 - output - what the computer gives back
