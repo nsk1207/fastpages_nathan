@@ -19,8 +19,10 @@ QandA.append({
     "Who was the first president?": "George Washington"
     })
 
-# Number of questions
+# Number of elements in list
 #questions = len(QandA)
+# Number of Q-A pair in math subject
+#questions = len(QandA[0])
 
 # Print question and return user input
 def question_with_response(prompt):
@@ -28,15 +30,10 @@ def question_with_response(prompt):
     msg = input()
     return msg
 
-scores = [0 , 0]
-
-# Intro
-print('Hello everyone!, ' + getpass.getuser() + " running " + sys.executable)
-print("Let's see how smart you are! Ready to take a quiz?")
-
-# Start questions
-def for_loop_index():    
-    # subject index
+# ask questions and check answers
+def for_loop_index():        
+    scores = [0 , 0]
+    # subject index    
     s = 0    
     for subject in QandA:
         print("\nSubject: " + SubjectList[s])
@@ -56,17 +53,18 @@ def for_loop_index():
     print("Correct answers in " + SubjectList[1] + ": " + str(scores[1]) + " out of " + str(len(QandA[1])))
     return
 
-#for_loop_index()
-
 # add a new math question with input
 print("Please add a questions in Math")
 newq = input()
 print("Please add corresponding answer")
 newa = input()
+print("You provided " + newq + " and " + newa)
 
 #add new question and answer
 temp_dict = {newq: newa}
 QandA[0].update(temp_dict)
 
-
+# Start questions
+print('Hello everyone!, ' + getpass.getuser() + " running " + sys.executable)
+print("Let's see how smart you are! Ready to take a quiz?")
 for_loop_index()
