@@ -4,7 +4,7 @@ title: Vocab
 permalink: /Vocab/
 ---
 
-Vocab from APCSP
+Terms, Ideas, etc.
 - Sequence - two or more lines of code
 - Jupyter Notebook - can run and write out certain code
 - import - includes other functions that were previously developed
