@@ -6,7 +6,6 @@ categories: [week2,markdown]
 comments: true
 ---
 
-<!DOCTYPE html>
 <html>
 <style>
 body {
