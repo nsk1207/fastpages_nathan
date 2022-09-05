@@ -39,8 +39,7 @@ baseurl: "/fastpages_nathan" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    github: nsk1207
 
 # Set this to true to get LaTeX math equation support
 use_math: 
