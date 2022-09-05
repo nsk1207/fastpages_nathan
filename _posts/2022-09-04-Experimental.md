@@ -46,8 +46,8 @@ body {
         <td>
             <a href="">This week, I learned how to use the basic tools of VSCODE and github. I also learned how to create my first markdown and jupyter notebook pages on my blog.  </a>
            <td><a href="{{https://github.com/nsk1207/fastpages_nathan/issues/2}}/week/0">Week 0 Hacks</a></td>
-        <td>
-        </td><tr>
+        </td>
+        <tr>
         <td>1</td>
         <td>
             <a href="">This week, I learned how to check my bash tools, and created my own quiz with python. I added my own cool features like a score counter! In addition, I added another markdown page with links to my other classes.  </a>
