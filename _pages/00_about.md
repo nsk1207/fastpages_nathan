@@ -37,5 +37,5 @@ I am a junior at Del Norte High school and I am in Computer Science Princples. I
 <tr>
         <td>Max Wu</td>
         <td>
-            <a href="">maxsomething@gmail.com</a>
+            <a href="">maxw37962@gmail.com</a>
         </td>
