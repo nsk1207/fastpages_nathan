@@ -51,6 +51,6 @@ body {
  <tr>
         <td>2</td>
         <td>
-            <a href="">This week, I learned how to use list, dictionaries, and iteration, and created my own quiz using them! In addition, I learned how to add gifs into my about me section, along with tables, links, and more. </a
+            <a href="">This week, I learned how to use list, dictionaries, and iteration, and created my own quiz using them! In addition, I learned how to add gifs into my about me section, along with tables, links, and more. 
 
 </table>
