@@ -39,19 +39,29 @@ body {
 <tr>
      <th>Week</th>
      <th>Notes</th>
+     <th>Hacks</th>
     
    <tr> <td>0</td>
         <td>
             <a href="">This week, I learned how to use the basic tools of VSCODE and github. I also learned how to create my first markdown and jupyter notebook pages on my blog.  </a>
+          <td>
+            <a href=""> [Review Ticket](https://github.com/nsk1207/fastpages_nathan/issues/2) </a>
         </td><tr>
         <td>1</td>
         <td>
             <a href="">This week, I learned how to check my bash tools, and created my own quiz with python. I added my own cool features like a score counter! In addition, I added another markdown page with links to my other classes.  </a>
-    
+      <td>
+            <a href=""> [Review Ticket](https://github.com/nsk1207/fastpages_nathan/issues/3) </a>
  <tr>
         <td>2</td>
         <td>
-            <a href="">This week, I learned how to use list, dictionaries, and iteration, and created my own quiz using them! In addition, I learned how to add gifs into my about me section, along with tables, links, and more. 
+            <a href="">This week, I learned how to use list, dictionaries, and iteration, and created my own quiz using them! In addition, I learned how to add gifs into my about me section, along with tables, links, and more.
+           <td>
+            <a href=""> [Review Ticket](https://github.com/nsk1207/fastpages_nathan/issues/4)
+<tr>
 
+        <td>3</td>
+        <td>
+            <a href="">TBD
       
 </table>
