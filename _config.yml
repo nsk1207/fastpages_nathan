@@ -40,6 +40,7 @@ baseurl: "/fastpages_nathan" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     github: nsk1207
+    youtube: https://www.youtube.com/watch?v=sepml4GLLSM
 
 # Set this to true to get LaTeX math equation support
 use_math: 
