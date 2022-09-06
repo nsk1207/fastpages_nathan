@@ -45,19 +45,19 @@ body {
    <tr> <td>0</td>
    <td>
             <a href="">This week, I learned how to use the basic tools of VSCODE and github. I also learned how to create my first markdown and jupyter notebook pages on my blog.</a> 
-           <td><a href="{{https://github.com/nsk1207/fastpages_nathan/issues/2}}/week/0">Week 0 Hacks</a></td>
+           <td><a href="{{https://github.com/nsk1207/fastpages_nathan/issues/2#issue-1345575648}}/week/0">Week 0 Hacks</a></td>
         </td>
         <tr>
         <td>1</td>
         <td>
             <a href="">This week, I learned how to check my bash tools, and created my own quiz with python. I added my own cool features like a score counter! In addition, I added another markdown page with links to my other classes.</a> 
       <td>
-            <a href="{{https://github.com/nsk1207/fastpages_nathan/issues/3}}/week/1">Week 1 Hacks</a>
+            <a href="{{https://github.com/nsk1207/fastpages_nathan/issues/3#issue-1353523948}}/week/1">Week 1 Hacks</a>
  <tr>
         <td>2</td>
         <td>
          <a href="">This week, I learned how to use list, dictionaries, and iteration, and created my own quiz using them! In addition, I learned how to add gifs into my about me section, along with tables, links, and more.</a> 
          <td>
-            <a href="{{https://github.com/nsk1207/fastpages_nathan/issues/4}}/week/2">Week 2 Hacks</a>
+            <a href="{{https://github.com/nsk1207/fastpages_nathan/issues/4#issue-1362459435}}/week/2">Week 2 Hacks</a>
         <tr> 
         </table>
