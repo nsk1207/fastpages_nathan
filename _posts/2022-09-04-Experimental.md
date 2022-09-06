@@ -40,25 +40,25 @@ body {
 <tr>
      <th>Week</th>
      <th>Notes</th>
-     <th>Links</th>
+     <th>Hacks</th>
     
    <tr> <td>0</td>
    <td>
             <a href="">This week, I learned how to use the basic tools of VSCODE and github. I also learned how to create my first markdown and jupyter notebook pages on my blog.</a> 
-           <td><a href="{{https://nsk1207.github.io/fastpages_nathan/week0/jupyter/2022/08/20/Nathan_nb.html}}/week/0">My first jupyter notebook</a></td>
+           <td><a href="{{https://github.com/nsk1207/fastpages_nathan/issues/2}}/week/0">Week 0 Hacks</a></td>
         </td>
         <tr>
         <td>1</td>
         <td>
             <a href="">This week, I learned how to check my bash tools, and created my own quiz with python. I added my own cool features like a score counter! In addition, I added another markdown page with links to my other classes.</a> 
       <td>
-            <a href="{{https://nsk1207.github.io/fastpages_nathan/week1/jupyter/2022/08/28/quiz.html}}/week/1">My first vocab quiz using python</a>
+            <a href="{{https://github.com/nsk1207/fastpages_nathan/issues/3}}/week/1">Week 1 Hacks</a>
  <tr>
         <td>2</td>
         <td>
          <a href="">This week, I learned how to use list, dictionaries, and iteration, and created my own quiz using them! In addition, I learned how to add gifs into my about me section, along with tables, links, and more.</a> 
          <td>
-            <a href="{{https://nsk1207.github.io/fastpages_nathan/week2/jupyter/2022/09/04/list_dict_quiz.html}}/week/2">My quiz using list and dictionary</a>
+            <a href="{{https://github.com/nsk1207/fastpages_nathan/issues/4}}/week/2">Week 2 Hacks</a>
         <tr> 
 
- </table>
+ 
