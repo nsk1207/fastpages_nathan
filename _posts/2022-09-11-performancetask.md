@@ -1,33 +1,8 @@
 ---
 toc: true
 layout: post
-description: Ideas for code.org app lab
-title: APCSP - Ideas
+title: Performance Task Planning
 categories: [week3,markdown]
 comments: true
 ---
-# Plan for quiz on applab (multiplication quiz)
-In my quiz, I want to try to have an infinite amount of questions by using the random number block of code. In addition, I plan on adding sound effects when getting a question right and wrong. I want to add three pages on app lab: Start screen, quiz screen, and a result screen. In my result screen, I want to add a final score thing (something out of something, for example). I would start by defining all my variables at the top, then creating my functions of code.
-
-- step 1: defining all variables (var)
-- step 2: creating functions for showing questions, showing results, etc.
-- step 3: create on-event code that will display the home screen, allow for user input such as clicking the start button, and creating a correct/wrong counter. 
-- step 4: using the random number command, create infinite amount of multiplication questions
-- step 5: create code that will let user click to finish quiz or return to home screen and reset all stats
-
-# Success in quiz
-- easy to understand
-- easy to navigate as a whole
-- simple 
-
-# Challenges in quiz
-![]({{site.baseurl}}/images/code_org.png)
-- creating two different on event functions within the same function got pretty complicated at one point and I had to be really careful
-
-# Plan for app on applab (tbd)
-- calculator 
-- 
-
-# Links to my creations:
- - [Quiz](https://studio.code.org/projects/applab/4JGPc1XtWCjP1xopwrNhPq_A08gSI9gAIkuXkaYSa20)
- - [App]()
+# 
