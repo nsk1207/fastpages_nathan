@@ -63,6 +63,6 @@ body {
         <td>
             <a href="">This week, I learned how to create my own quiz in Code.org. I added my own special touches (with the help of my partner) and I also wrote a creative performance task.</a> 
       <td>
-            <a href="">Week 3 Hacks</a>
+            <a href="https://github.com/nsk1207/fastpages_nathan/issues/5">Week 3 Hacks</a>
 
  
