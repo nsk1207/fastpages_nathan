@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Ideas for code.org app lab
-title: AppLab Ideas
+title: APCSP - Ideas
 categories: [week3,markdown]
 comments: true
 ---
@@ -24,10 +24,10 @@ In my quiz, I want to try to have an infinite amount of questions by using the r
 ![]({{site.baseurl}}/images/code_org.png)
 - creating two different on event functions within the same function got pretty complicated at one point and I had to be really careful
 
-# Plan for app on applab
-## Calculator? 
+# Plan for app on applab (tbd)
+- calculator 
 - 
 
 # Links to my creations:
  - [Quiz](https://studio.code.org/projects/applab/4JGPc1XtWCjP1xopwrNhPq_A08gSI9gAIkuXkaYSa20)
- - App
+ - [App]()
