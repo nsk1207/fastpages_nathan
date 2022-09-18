@@ -1,8 +1,7 @@
 ---
 toc: true
 layout: post
-description: Vocab and other notes from the “Psychology and the Good Life” video
-title: Notes from “Psychology and the Good Life”
+title: Notes from “Psychology and the Good Life” + Collegeboard Collaboration hacks
 categories: [week4,markdown]
 comments: true
 ---
@@ -22,3 +21,13 @@ comments: true
 - my cousins
 - my friends
 - my 
+
+# Collegeboard Collabortion Video Notes
+- collabortion = new ideas (super mario brothers 2 and 3, for example)
+- divsere perspective + less bias in the development of computing innovations
+- <mark>pair programming</mark>: two programmers working together in pairs. There is a driver who writes program code, while the other (the observer, pointer, or navigator) reviews each line of program code as it is typed in
+- <mark>think-pair-share</mark>: students think through a problem alone, pair with a partner to share ideas, then share results with class
+- communication is important 
+
+# MCQ Score proof
+![]({{site.baseurl}}/images/mcq.png)
