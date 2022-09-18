@@ -11,3 +11,14 @@ comments: true
 - Making time for some gratitude 
 - Have healthier practices (sleep habits, eating habits, etc)
 - Controlling life can be hard, live in the momement
+
+# Gratitude list
+- my partners in csp
+- my mom
+- my dad
+- my brother
+- my uncle
+- my aunt
+- my cousins
+- my friends
+- my 
