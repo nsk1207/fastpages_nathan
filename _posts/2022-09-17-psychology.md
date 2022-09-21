@@ -11,16 +11,8 @@ comments: true
 - Have healthier practices (sleep habits, eating habits, etc)
 - Controlling life can be hard, live in the momement
 
-# Gratitude list
-- my partners in csp
-- my mom
-- my dad
-- my brother
-- my uncle
-- my aunt
-- my cousins
-- my friends
-- my 
+# Our Team Infographic from the video
+![]({{site.baseurl}}/images/infographic.png)
 
 # Collegeboard Collabortion Video Notes
 - collabortion = new ideas (super mario brothers 2 and 3, for example)
