@@ -183,6 +183,17 @@
   
 
   
+      ,"page4": {
+          "title": "Java Script",
+          "content": "Here is my link to my jupyter notebook with my Java Script personal use. | Here is my link to my regular post that uses HTML fragments and JavaScript data to build a table. | .",
+          "url": "https://nsk1207.github.io/fastpages_nathan/JavaScript/",
+          "relUrl": "/JavaScript/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
 
@@ -202,7 +213,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nsk1207.github.io/fastpages_nathan/robots.txt",
