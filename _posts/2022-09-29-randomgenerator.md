@@ -1,11 +1,11 @@
 ---
 toc: true
 layout: post
-title: City Generator
+title: Number Generator
 categories: [week5,markdown]
 comments: true
 ---
-<button type="button" class="btn btn-light" onclick="randomNumber()">Click to Generate Random Number</button>
+<button type="button" class="btn btn-light" onclick="randomNumber()">Click me</button>
   <br>
   <h3 id="Number Generator" href="#">Here is your number!</h3>
   <script>
@@ -37,3 +37,4 @@ comments: true
     [index]
   }
   </script>
+
