@@ -639,7 +639,10 @@ clouds_mid 100
 <span class="n">ordering</span> <span class="o">=</span> <span class="kc">True</span>
 
 <span class="k">while</span> <span class="n">ordering</span><span class="p">:</span>
-    <span class="n">food</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Please select an item from the menu. Press enter when you are done."</span><span class="p">)</span>
+    <span class="n">food</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Please select an item from the menu. Press enter when you are done. Press exit to quit."</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">food</span> <span class="o">==</span> <span class="s2">"exit"</span><span class="p">:</span>
+        <span class="k">break</span> 
 
     <span class="k">if</span> <span class="n">food</span> <span class="ow">in</span> <span class="n">menu</span><span class="p">:</span>
         <span class="n">total</span> <span class="o">+=</span> <span class="n">menu</span><span class="p">[</span><span class="n">food</span><span class="p">]</span>
@@ -647,6 +650,8 @@ clouds_mid 100
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"Here is your order!"</span><span class="p">)</span>
         <span class="n">ordering</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"done"</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -663,8 +668,7 @@ clouds_mid 100
 burger  $10.99
 fries  $4.99
 drink  $4.99
-Your total: $10.99
-Here is your order!
+done
 </pre>
 </div>
 </div>
