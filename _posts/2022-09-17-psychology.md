@@ -11,7 +11,7 @@ comments: true
 - Have healthier practices (sleep habits, eating habits, etc)
 - Controlling life can be hard, live in the momement
 
-# Our Team Infographic from the video (test)
+# Our Team Infographic from the video (testt_)
 ![]({{site.baseurl}}/images/infographic.png)
 
 # Collegeboard Collabortion Video Notes
