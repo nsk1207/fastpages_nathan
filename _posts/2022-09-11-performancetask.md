@@ -2,7 +2,7 @@
 toc: true
 layout: post
 title: Group Project Planning
-categories: [week7,markdown]
+categories: [collegeboard]
 comments: true
 ---
 # Performance Task Idea 1:
