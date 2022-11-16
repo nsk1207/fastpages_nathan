@@ -30,12 +30,12 @@ I am a junior at Del Norte High school and I am in Computer Science Princples. I
             <a href="">alyssar60819@gmail.com</a>
         </td>
 <tr>
-        <td>Sri Kotturi</td>
+        <td>Haseeb</td>
         <td>
-            <a href="">srihita.kotturi@gmail.com</a>
+            <a href=""></a>
         </td>
 <tr>
-        <td>Max Wu</td>
+        <td>Sabine</td>
         <td>
-            <a href="">maxw37962@gmail.com</a>
+            <a href=""></a>
         </td>
