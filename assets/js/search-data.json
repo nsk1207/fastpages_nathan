@@ -298,12 +298,15 @@
   
 
   
+  
+
+  
 
   
   
 
   
-      ,"page14": {
+      ,"page15": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nsk1207.github.io/fastpages_nathan/robots.txt",
