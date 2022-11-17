@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Binary Math",
-            "content": "Binary Math with Conversions . Plus Binary Octal Hexadecimal Decimal Minus . +1 | 00000000 | 0 | 0 | 0 | -1 | . Turn on | Turn on | Turn on | Turn on | Turn on | Turn on | Turn on | Turn on | . | | | | | | | | .",
+            "title": "Binary",
+            "content": "Decimal to Binary Conversion . Input a decimal and press tab to convert to binary!: Binary : ___",
             "url": "https://nsk1207.github.io/fastpages_nathan/frontend/binary",
             "relUrl": "/frontend/binary",
             "date": " • Nov 15, 2022"
