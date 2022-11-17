@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Binary",
-            "content": "Input a decimal and press tab to convert to binary!: Binary : ___",
+            "content": "Input a decimal and press tab to convert to binary!: Binary :",
             "url": "https://nsk1207.github.io/fastpages_nathan/frontend/binary",
             "relUrl": "/frontend/binary",
             "date": " • Nov 15, 2022"
