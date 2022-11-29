@@ -118,7 +118,7 @@ window.onload = wrap_img;
             var decimal = parseInt(array[0].value)  // user decimal input
             var rem;  // temporary variable to store remainder
             if (decimal == "0") {  // if user input is decimal 0, binary output will also be 0
-                binary.unshift("0");
+                binary.unshift("0"); // unshift adds elements of the array to the front
             }
             else {
                 while (decimal != 0){  // continues until quotient becomes 0  
