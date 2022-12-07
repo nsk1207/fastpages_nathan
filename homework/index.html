@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      6 min read
     
 </span></p>
 
@@ -322,7 +322,9 @@ Fish: 0
     <span class="p">(</span><span class="s2">"What can numbers in lists be used for?"</span><span class="p">,</span> <span class="s2">"A) Reading"</span><span class="p">,</span> <span class="s2">"B) Science"</span><span class="p">,</span> <span class="s2">"C) Math"</span><span class="p">,</span> <span class="s2">"C"</span><span class="p">),</span>
     <span class="p">(</span><span class="s2">"What are lists?"</span><span class="p">,</span> <span class="s2">"A) A sequence of characters"</span><span class="p">,</span> <span class="s2">"B) Collection of data"</span><span class="p">,</span> <span class="s2">"C) A repetition of code until the desired result is produced"</span><span class="p">,</span> <span class="s2">"B"</span><span class="p">)</span>
 <span class="p">]</span>
+<span class="c1">#</span>
 
+<span class="c1"># After attempting to try the quiz, it doesn't seem to work. I think there is something wrong with my integer and position placement, but I don't understand how to fix it. </span>
 <span class="k">def</span> <span class="nf">questionloop</span><span class="p">():</span>
     <span class="n">right</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">questions</span><span class="p">)):</span>
@@ -331,33 +333,13 @@ Fish: 0
             <span class="nb">print</span><span class="p">(</span><span class="s2">"Correct"</span><span class="p">)</span>
             <span class="n">right</span> <span class="o">=</span> <span class="n">right</span> <span class="o">+</span> <span class="mi">1</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">"Wrong"</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">right</span> 
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Wrong"</span><span class="p">)</span> 
 <span class="n">questionloop</span><span class="p">()</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">"You got a: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">right</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"/5"</span> <span class="o">+</span> <span class="s2">" or a "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">right</span><span class="o">/</span><span class="n">totalqs</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"%"</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Correct
-Wrong
-Correct
-Wrong
-Wrong
-You got a: 2/5 or a 40.0%
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
