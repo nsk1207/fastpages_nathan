@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      5 min read
     
 </span></p>
 
@@ -312,8 +312,8 @@ Fish: 0
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">right</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#used at the end when displaying the score</span>
-<span class="n">totalqs</span> <span class="o">=</span> <span class="mi">5</span> <span class="c1">#used at the end when displaying the score</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">right</span> <span class="o">=</span> <span class="mi">0</span> 
+<span class="n">totalqs</span> <span class="o">=</span> <span class="mi">5</span> 
 
 <span class="n">questions</span> <span class="o">=</span> <span class="p">[</span>
     <span class="p">(</span><span class="s2">"What do list indexes generally start with"</span><span class="p">,</span><span class="s2">"A) 0"</span><span class="p">,</span> <span class="s2">"B) 1"</span><span class="p">,</span> <span class="s2">"C) -1"</span><span class="p">,</span> <span class="s2">"A"</span><span class="p">),</span>
@@ -327,15 +327,15 @@ Fish: 0
     <span class="n">right</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">questions</span><span class="p">)):</span>
         <span class="n">answer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"A, B, or C"</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="n">questions</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">4</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="n">questions</span><span class="p">[</span><span class="mi">4</span><span class="p">]:</span> <span class="c1"># 4 represents position in lsit</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">"Correct"</span><span class="p">)</span>
-            <span class="n">right</span><span class="o">+=</span><span class="mi">1</span>
+            <span class="n">right</span> <span class="o">=</span> <span class="n">right</span> <span class="o">+</span><span class="n">_1</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">"Wrong"</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">right</span>
-<span class="n">right</span> <span class="o">=</span> <span class="n">questionloop</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">right</span> 
+<span class="n">questionloop</span><span class="p">()</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Your score is: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">right</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"/5"</span> <span class="o">+</span> <span class="s2">" and you got "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">right</span><span class="o">/</span><span class="mi">5</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"%"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"You got a: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">right</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"/5"</span> <span class="o">+</span> <span class="s2">" or a "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">right</span><span class="o">/</span><span class="n">totalqs</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"%"</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -353,8 +353,7 @@ Wrong
 Correct
 Wrong
 Wrong
-You got a 2 out of 5 problems right!
-Your score is: 2/5 and you got 40.0%
+You got a: 2/5 or a 40.0%
 </pre>
 </div>
 </div>
