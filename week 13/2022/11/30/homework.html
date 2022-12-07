@@ -241,13 +241,10 @@ Nested Conditional statements - conditional statements within conditional statem
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">DecimalToBinary</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
     <span class="n">strs</span> <span class="o">=</span> <span class="s2">""</span>
     <span class="k">while</span> <span class="n">num</span><span class="p">:</span>
-        <span class="c1"># if (num &amp; 1) = 1</span>
         <span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">):</span>
             <span class="n">strs</span> <span class="o">+=</span> <span class="s2">"1"</span>
-        <span class="c1"># if (num &amp; 1) = 0</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">strs</span> <span class="o">+=</span> <span class="s2">"0"</span>
-        <span class="c1"># right shift by 1</span>
         <span class="n">num</span> <span class="o">&gt;&gt;=</span> <span class="mi">1</span>
     <span class="k">return</span> <span class="n">strs</span>
 
