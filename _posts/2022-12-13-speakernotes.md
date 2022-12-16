@@ -86,3 +86,6 @@ title: Speaker Notes 12/13
 - "walk me through your thinking"
 - a question thta Kathyleen asks to intview applicants: "How many cars do you think were sold in the cars in the US?"
     - looks for assumptions and thought process
+
+# Reflection
+Overall, I learned many new things. I learned that coding in the real world can sometimes be a tough process, but perseverence and resillience will lead to success. Preparing yourself and and constantly learning is also a key factor in success. You also have to be a critical thinker when coding and being able to explain your code is extremely important. 
