@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      10 min read
     
 </span></p>
 
@@ -138,12 +138,14 @@ window.onload = wrap_img;
 <h3 id="Hack-#1---Class-Notes">
 <a class="anchor" href="#Hack-#1---Class-Notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hack #1 - Class Notes<a class="anchor-link" href="#Hack-#1---Class-Notes"> </a>
 </h3>
-<p>Basics</p>
+<p>Basics / extra notes from lesson</p>
 <ul>
 <li>Simulations are abstractions that mimic more compelx objects or phenomena from the real world </li>
 <li>it is necessart to remove specific details (example, the temperature of the sun on a certain day)</li>
 <li>simulations allow the formulation of hypothesis under consideration </li>
 <li>examples: rolling dice, spinners, molecular models, analyze chemical/reactions</li>
+<li>We can use the python random module to run various simulations in our programs. For instance, random number generators could be used to simulate different probabilities and such</li>
+<li>more examples include missle launchers and chemical reactions</li>
 </ul>
 
 </div>
@@ -200,7 +202,7 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>7
+<pre>77
 </pre>
 </div>
 </div>
@@ -311,18 +313,39 @@ Heads
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
 
 <span class="k">def</span> <span class="nf">randomnum</span><span class="p">():</span> <span class="c1"># function for generating random int</span>
-<span class="n">n</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">converttobin</span><span class="p">(</span><span class="n">n</span><span class="p">):</span> <span class="c1"># function for converting decimal to binary</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">n</span>
+    <span class="n">N</span> <span class="o">=</span> <span class="mi">7</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">while</span> <span class="n">N</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">**</span> <span class="n">N</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">x</span><span class="o">-=</span><span class="mi">2</span> <span class="o">**</span> <span class="n">N</span>
+            <span class="n">N</span><span class="o">-=</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+            <span class="n">N</span><span class="o">-=</span><span class="mi">1</span>
+    <span class="k">return</span> <span class="n">res</span>
 
-
-<span class="k">def</span> <span class="nf">survivors</span><span class="p">(</span><span class="n">binary</span><span class="p">):</span> <span class="c1"># function to assign position</span>
+<span class="k">def</span> <span class="nf">survivors</span><span class="p">():</span> <span class="c1"># function to assign position</span>
     <span class="n">survivorstatus</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Jiya"</span><span class="p">,</span> <span class="s2">"Shruthi"</span><span class="p">,</span> <span class="s2">"Noor"</span><span class="p">,</span> <span class="s2">"Ananya"</span> <span class="p">,</span> <span class="s2">"Peter Parker"</span><span class="p">,</span> <span class="s2">"Andrew Garfield"</span><span class="p">,</span> <span class="s2">"Tom Holland"</span><span class="p">,</span> <span class="s2">"Tobey Maguire"</span><span class="p">]</span>
+    <span class="n">chances</span> <span class="o">=</span> <span class="n">converttobin</span><span class="p">(</span><span class="n">randomnum</span><span class="p">())</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">survivorstatus</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span> <span class="k">if</span> <span class="n">chances</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">printsurvivors</span><span class="p">(</span><span class="n">survivors</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"These people survived: "</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">survivors</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
     <span class="c1"># replace the names above with your choice of people in the house</span>
+
+<span class="n">survivor_list</span> <span class="o">=</span> <span class="n">survivors</span><span class="p">()</span>
+<span class="n">printsurvivors</span><span class="p">(</span><span class="n">survivor_list</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -334,12 +357,10 @@ Heads
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-cyan-fg">  Input </span><span class="ansi-green-fg">In [45]</span>
-<span class="ansi-red-fg">    for i in range(0, 10):</span>
-    ^
-<span class="ansi-red-fg">IndentationError</span><span class="ansi-red-fg">:</span> expected an indented block
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>These people survived: 
+Ananya
+Tom Holland
 </pre>
 </div>
 </div>
@@ -371,7 +392,7 @@ Heads
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> <span class="c1"># you can run this code multiple times with different outputs each time</span>
 <span class="n">repeat</span> <span class="o">=</span> <span class="kc">True</span>
 <span class="k">while</span> <span class="n">repeat</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"You rolled"</span><span class="p">,</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
@@ -475,26 +496,52 @@ Want to roll again? Y/N
 <span class="n">correct</span> <span class="o">=</span> <span class="mi">0</span>
 
 
-<span class="n">Q1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="k">if</span> <span class="n">Q1</span> <span class="o">==</span> <span class="p">:</span>
-    
+<span class="n">question</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"A researcher gathers data about the effect of Advanced Placement classes on students' success in college and career, and develops a simulation to show how a sequence of AP classes affect a hypothetical student's pathway.Several school administrators are concerned that the simulation contains bias favoring high-income students, however. a) The simulation is an abstraction and therefore cannot contain any bias b) The simulation may accidentally contain bias due to the exclusion of details c) If the simulation is found to contain bias, then it is not possible to remove the bias from the simulation d) The only way for the simulation to be biased is if the researcher intentionally used data that favored their desired output"</span><span class="p">:</span> <span class="s2">"b"</span><span class="p">,</span>
+    <span class="s2">"Jack is trying to plan his financial future using an online tool. The tool starts off by asking him to input details about his current finances and career. It then lets him choose different future scenarios, such as having children. For each scenario chosen, the tool does some calculations and outputs his projected savings at the ages of 35, 45, and 55.Would that be considered a simulation and why? a) No, it's not a simulation because it does not include a visualization of the results. b) No, it's not a simulation because it does not include all the details of his life history and the future financial environment c) Yes, it's a simulation because it runs on a computer and includes both user input and computed output. d) Yes, it's a simulation because it is an abstraction of a real world scenario that enables the drawing of inferences."</span><span class="p">:</span> <span class="s2">"c"</span><span class="p">,</span>
+    <span class="s2">"Sylvia is an industrial engineer working for a sporting goods company. She is developing a baseball bat that can hit balls with higher accuracy and asks their software engineering team to develop a simulation to verify the design.Which of the following details is most important to include in this simulation? a) Realistic sound effects based on the material of the baseball bat and the velocity of the hit b) A depiction of an audience in the stands with lifelike behavior in response to hit accuracy c) Accurate accounting for the effects of wind conditions on the movement of the ball d) A baseball field that is textured to differentiate between the grass and the dirt"</span><span class="p">:</span> <span class="s2">"c"</span><span class="p">,</span>
+    <span class="s2">"Ashlynn is an industrial engineer who is trying to design a safer parachute. She creates a computer simulation of the parachute opening at different heights and in different environmental conditions.What are advantages of running the simulation versus an actual experiment? a) The simulation will not contain any bias that favors one body type over another, while an experiment will be biased b) The simulation can be run more safely than an actual experiment c) The simulation will accurately predict the parachute's safety level, while an experiment may be inaccurate due to faulty experimental design d) The simulation can't test the parachute design in a wide range of environmental conditions that may be difficult to reliably reproduce in an experiment"</span><span class="p">:</span> <span class="s2">"b"</span><span class="p">,</span>
+    <span class="s2">"Which of the following ways can we best simulate a random dice roll? a) Simulation b) Loops c) Strings d) Nested Conditionals"</span><span class="p">:</span> <span class="s2">"a"</span><span class="p">,</span>
+    <span class="s2">"What module in python could be used to generate random values in simulations?, a) Random b) False c) Tensorflow d) Turtle"</span><span class="p">:</span> <span class="s2">"a"</span><span class="p">,</span>
+<span class="p">}</span>
 
-<span class="n">Q2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="k">if</span> <span class="n">Q2</span> <span class="o">==</span> <span class="p">:</span>
-   
-<span class="n">Q3</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="k">if</span> <span class="n">Q3</span> <span class="o">==</span> <span class="p">:</span>
-   
+<span class="k">def</span> <span class="nf">qna</span><span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">answer</span><span class="p">):</span>
+    <span class="n">answer</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">question</span> <span class="o">+</span> <span class="s1">' :pick a, b, c, or d'</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="n">answer</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'Good job, you are correct'</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'Better luck next time, you are wrong'</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mi">0</span>
 
-<span class="n">Q4</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">question</span><span class="p">:</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">qna</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">question</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">correct</span> <span class="o">=</span> <span class="n">correct</span> <span class="o">+</span> <span class="n">y</span>
 
-
-
-
-<span class="nb">print</span><span class="p">(</span> <span class="s2">" you scored "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span><span class="s2">"/"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"You scored "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">correct</span><span class="p">)</span> <span class="o">+</span><span class="s2">"/"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">questions</span><span class="p">)</span> <span class="o">+</span> <span class="s2">", which is "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">correct</span> <span class="o">/</span> <span class="n">questions</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"%"</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Good job, you are correct
+Good job, you are correct
+Good job, you are correct
+Good job, you are correct
+Good job, you are correct
+Good job, you are correct
+You scored 6/6, which is 100.0%
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -520,6 +567,88 @@ Be creative! Think about instances in your own life, science, puzzles that can b
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+ 
+<span class="c1"># Function which generates a new random number everytime it executes</span>
+<span class="k">def</span> <span class="nf">generator</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+     
+<span class="c1"># Function takes user input and returns</span>
+<span class="k">def</span> <span class="nf">rand_guess</span><span class="p">():</span>
+    <span class="c1"># calls generator() which returns random integer between 1 and 10</span>
+    <span class="n">random_number</span> <span class="o">=</span> <span class="n">generator</span><span class="p">()</span>
+    <span class="c1"># defining the number of guesses the user gets</span>
+    <span class="n">guess_left</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="c1"># Setting a flag variable</span>
+    <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="c1"># looping the number of times the user gets chances</span>
+    <span class="k">while</span> <span class="n">guess_left</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="c1"># Taking a input from the user</span>
+        <span class="n">guess</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Pick your number to "</span>
+                      <span class="s2">"enter the lucky draw</span><span class="se">\n</span><span class="s2">"</span><span class="p">))</span>
+        <span class="c1"># checking whether user's gues matches the win-condition</span>
+        <span class="k">if</span> <span class="n">guess</span> <span class="o">==</span> <span class="n">random_number</span><span class="p">:</span>
+            <span class="c1"># setting flag as 1 if user guesses correctly and then loop is broken</span>
+            <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># if user's choice doesn't match win-condition then it is printed</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Wrong Guess!!"</span><span class="p">)</span>
+        <span class="n">guess_left</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">flag</span> <span class="ow">is</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">'__main__'</span><span class="p">:</span> <span class="c1"># driver code</span>
+    <span class="k">if</span> <span class="n">rand_guess</span><span class="p">()</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Congrats!! You Win."</span><span class="p">)</span>
+    <span class="k">else</span> <span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Sorry, You Lost!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>&lt;&gt;:29: SyntaxWarning: "is" with a literal. Did you mean "=="?
+&lt;&gt;:29: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/tmp/ipykernel_436/2394116528.py:29: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if flag is 1:
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Wrong Guess!!
+Wrong Guess!!
+Wrong Guess!!
+Sorry, You Lost!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
