@@ -12,14 +12,14 @@ title: Grading Performance Tasks
 
 Student 1
 
-Category | Requirements | Student Score | CB Score
--- | -- | -- | --
-Program Purpose and Function | input, program functionality, output describes the overall purpose of the program, describes what functionality of the program is demonstrated in the video, describes the input and output of the program demonstrated in the video. | 1 | 0
-Data Abstraction | includes two program code segments, one that shows how data has been stored in this list (or other collection type), one that shows the data in this same list being used as part of fulfilling the program’s purpose, identifies the name of the variable representing the list being used in this response, describes what the data contained in this list is representing in the program. | 1 | 1
-Managing Complexity | includes a program code segment that shows a list being used to manage complexity in the program, explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list. | 0 | 0
-Procedural Abstraction | includes two program code segments: one showing a student-developed procedure with at least one parameter that has an effect on the functionality of the procedure, one showing where the student-developed procedure is being called, describes what the identified procedure does and how it contributes to the overall functionality of the program. | 1 | 1
-Algorithm Implementation | includes a program code segment of a student-developed algorithm that includes sequencing selection iteration explains in detailed steps how the identified algorithm works in enough detail that someone else could recreate it. | 1 | 1
-Testing | describes two calls to the selected procedure identified in written response 3c, Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute, describes the condition(s) being tested by each call to the procedure, identifies the result of each call. | 1 | 1
+|Reporting Category|Student Grading Score|Collegeboard's Score|Comments|
+|:---:|:---:|:---:|:---:|
+|Program Purpose and Function|1|0|The video was demonstrated clearly and the explanation followed the criteria, but Collegeboard did not award a point.|
+|Data Abstraction|1|1|The data stored in the list was shown and the second code segment demonstrated its use. The name of the list variable was provided and the data it represented was described.|
+|Managing Complexity|0|0|No program code was shown in this category.|
+|Procedural Abstraction|1|1|The procedure and its application was shown and its contribution to the program's functionality was fully described.|
+|Algorithm Implementation|1|1|The code segment demonstrated sequencing, selection, and iteration using a for loop. It was very detailed and could likely be recreated.|
+|Testing|1|1|The written response clearly answered all of the criteria.|
 
 <!--EndFragment-->
 </body>
@@ -35,14 +35,14 @@ Student 2
 <body>
 <!--StartFragment-->
 
-Category | Requirements | Student Score | CB Score
--- | -- | -- | --
-Program Purpose and Function | input, program functionality, output describes the overall purpose of the program, describes what functionality of the program is demonstrated in the video, describes the input and output of the program demonstrated in the video. | 1 | 1
-Data Abstraction | includes two program code segments, one that shows how data has been stored in this list (or other collection type), one that shows the data in this same list being used as part of fulfilling the program’s purpose, identifies the name of the variable representing the list being used in this response, describes what the data contained in this list is representing in the program. | 1 | 1
-Managing Complexity | includes a program code segment that shows a list being used to manage complexity in the program, explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list. | 1 | 1
-Procedural Abstraction | includes two program code segments: one showing a student-developed procedure with at least one parameter that has an effect on the functionality of the procedure, one showing where the student-developed procedure is being called, describes what the identified procedure does and how it contributes to the overall functionality of the program. | 1 | 1
-Algorithm Implementation | includes a program code segment of a student-developed algorithm that includes sequencing selection iteration explains in detailed steps how the identified algorithm works in enough detail that someone else could recreate it. | 1 | 1
-Testing | describes two calls to the selected procedure identified in written response 3c, Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute, describes the condition(s) being tested by each call to the procedure, identifies the result of each call. | 1 | 1
+|Reporting Category|Student Grading Score|Collegeboard's Score|Comments|
+|:---:|:---:|:---:|:---:|
+|Program Purpose and Function|1|1|The video demonstrated input, program functionality, and output. The written response clearly described the overall purpose, the program's functionality as shown in the video, and the input and output shown in the video.|
+|Data Abstraction|0|1|The first code segment did not show a list, only a function.|
+|Managing Complexity|1|1|The written response explained how the list manages complexity and the code segment demonstrated this.|
+|Procedural Abstraction|1|1|Both code segments showed the procedure and its call. The description of the procedure was also very detailed and showed how it contributed to the overall functionality.|
+|Algorithm Implementation|1|1|Sequencing, selection, and iteration were all present in the program code segment. The steps of the algorithm were explained in great detail.|
+|Testing|1|1|Two calls to the procedure were described in detail in 3c, including the conditions and results of each call.|
 
 <!--EndFragment-->
 </body>
