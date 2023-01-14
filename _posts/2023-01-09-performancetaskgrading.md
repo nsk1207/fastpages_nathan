@@ -14,7 +14,7 @@ title: Grading Performance Tasks Week 2
 | Managing Complexity | 0 | 0 | This doesn't earn the point because they don't decribe how the list manages complexity. They show code segments with data being stored in a list, but they don't contain complex code. |
 | Procedural Abstraction | 0 | 0 | This doesn't earn the point because they don't decribe the overall functionality of the procedure. | 
 | Algorithm Implementation | 0 | 0 | This doesn't earn the point because they had little detail about their algorithm in their response They only had minimal description. | 
-| Testing | 1 | 1 | This earn the point because they successfully explain the two calls and fufills the rest of the requirements. | 
+| Testing | 1 | 1 | This earns the point because they successfully explain the two calls and fufills the rest of the requirements. | 
 
 # Student 2
 
