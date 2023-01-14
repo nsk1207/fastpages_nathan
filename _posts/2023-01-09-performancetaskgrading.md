@@ -5,7 +5,7 @@ categories: [week18]
 title: Grading Performance Tasks Week 2
 ---
 
-### <mark>Week 2</mark> Performan Task Grading
+### <mark>Week 2</mark> Performance Task Grading
 
 [Link to full rubric here](https://apcentral.collegeboard.org/media/pdf/ap22-sg-computer-science-principles.pdf)
 
