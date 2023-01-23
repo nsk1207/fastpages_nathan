@@ -26,9 +26,9 @@ The overall idea of this program was to create a program simulates a rock-paper-
   </tr>
   <tr>
     <td><strong>Data Abstraction</strong></td>
-    <td>0/1</td>
-    <td>The program and response has a usage of a list, it being (<code>RPS</code>), and the purpose it serves is seving as random set of input for the computer. However, it does not show how the data in the list is being used in the code.</td>
-    <td></td>
+    <td>1/1</td>
+    <td>The program and response has a usage of a list, it being (<code>RPS</code>), and the purpose it serves is seving as random set of input for the computer.</td>
+    <td>Accorinding to CB, however, it does not show how data in the list is being used in the code. They didn't earn the point for this row.</td>
   </tr>
   <tr>
     <td><strong>Managing Complexity</strong></td>
@@ -183,8 +183,8 @@ The overall idea of this submission was to create a program that simulates a fis
   <tr>
     <td><strong>Managing Complexity</strong></td>
     <td>1/1</td>
-    <td>The written response succesfully writes how a list serves to reduce complexity. The student responds that without the usage of a list, they would likely have to resort to the use of individual variables to store each fish and the number of that fish caught, which would be complicated and annoying, especially if they wanted to add more types of fish in the future.</td>
-    <td></td>
+    <td>The written response succesfully writes how a list serves to reduce complexity. The student doesn't say what would happen without the usage of a list. They don't say how they would likely have to resort to the use of individual variables to store each fish and the number of that fish caught, which would be complicated and annoying, especially if they wanted to add more types of fish in the future.</td>
+    <td>CB says that they actually got it because the student DOES respond that without the list, they would have to resort to individual variables.</td>
   </tr>
   <tr>
     <td><strong>Procedural Abstraction</strong></td>
