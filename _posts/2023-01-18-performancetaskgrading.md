@@ -10,7 +10,6 @@ layout: default
 The overall idea of this program was to create a program simulates a rock-paper-sicsors game .
 
 ### Grading:  
-
 <table>
   <tr>
     <th>Row</th>
@@ -60,7 +59,6 @@ The overall idea of this program was to create a program simulates a rock-paper-
 The overall idea of this program was to create a program that challenges the user to a 5-word hangman to help them recognize new words/expand their vocab knowledge
 
 ### Grading:  
-
 <table>
   <tr>
     <th>Row</th>
@@ -71,13 +69,13 @@ The overall idea of this program was to create a program that challenges the use
   <tr>
     <td><strong>Program Function and Purpose</strong></td>
     <td>1/1</td>
-    <td>The video response does a good job of showing the input, functionality, and output of the program, allowing the user to play hangman by selecting a word and taking in user inputs to judge whether or not a correct guess was found. The overall purpose/function of the program was also clearly stated in the written portion, aiming to improve people's ability to recognize new words and expand their vocab.</td>
+    <td>The video demonstration effectively illustrates the input process, features, and output of the program, enabling users to participate in the hangman game by choosing a word and inputting guesses to determine if they are correct. The main objective of the program, which is to enhance people's vocabulary and ability to learn new words, is also clearly explained in the accompanying written description.</td>
     <td></td>
   </tr>
   <tr>
     <td><strong>Data Abstraction</strong></td>
     <td>1/1</td>
-    <td>The program and response includes the usage of a list, it's name, and the purpose it serves. The list is in the form of an array that stores the individual letters of a word (<code>letOfGuessWord</code>), which allows for the program to perform comparisons in the future. In addition, the written response also shows the list being used in the program to fullfil it's purpose in the execution of the program</td>
+    <td>The program and its corresponding explanation make use of a list, specifically an array, that holds the individual letters of a word (<code>letOfGuessWord</code>), enabling the program to conduct comparisons. The list is central to the program's functionality, as it enables the execution of the program's purpose as described in the written response.</td>
     <td></td>
   </tr>
   <tr>
@@ -89,19 +87,19 @@ The overall idea of this program was to create a program that challenges the use
   <tr>
     <td><strong>Procedural Abstraction</strong></td>
     <td>1/1</td>
-    <td>The written reponse demonstrates usage of the function <code>guessWords</code> in order to compare the inputted word by the user against the randomly selected word by the program . This function also consists of a string argument to represent the user's letter guess at the hidden word, and checks each index of the word list to find a match for the letter. The students also a does a good job to describe how the algorithm works.</td>
+    <td> The written explanation showcases the usage of the <code>guessWords</code> function, which compares the user's inputted word to the randomly chosen word by the program. This function takes in a string argument that represents the user's guessed letter in the hidden word and checks each index of the word list to find a matching letter. The student also effectively explains the workings of the algorithm.</td>
     <td></td>
   </tr>
   <tr>
     <td><strong>Algorithm Implementation</strong></td>
     <td>1/1</td>
-    <td>The algorithm indicates the proper use of a for-loop to implement iteration, in order to properly check over each letter in the hidden word. Sequencing is also present, and selection is also implemented to check if there was a match in the letter and the word, and if the total number of lives is > than 0. If the total number of lives was found to be equal to 0, the game ends with a display screen.</td>
+    <td>The algorithm employs the use of a for-loop to execute iteration, which allows for checking every letter in the hidden word. The algorithm also uses sequencing and selection, it checks if there is a match between the letter and the word, and whether the number of lives is greater than 0. If the total number of lives reaches 0, the game terminates with a display screen.</td>
     <td></td>
   </tr>
   <tr>
     <td><strong>Testing</strong></td>
     <td>1/1</td>
-    <td>The written response  shows the inputting of two different inputs, one containing the number "1" that is not in the test string "hello", and another containing the letter "h" that is found in "hello". The response clearly shows why each response gave their resutls and also properly identified each respective result of the program. They also explicitly cited the line numbers within the code to give a reference point of of the execution of the program.</td>
+    <td>The written explanation displays the input of two different inputs, one inputting the number "1" which is not present in the test string "hello", and another inputting the letter "h" which is present in "hello". The explanation clearly explains the reasons for each input's results and correctly identifies each outcome of the program. It also specifically references the line numbers within the code to provide a clear reference point for the program's execution.</td>
     <td></td>
   </tr>
 </table>
@@ -110,7 +108,6 @@ The overall idea of this program was to create a program that challenges the use
 The overall idea of this submission was to create a program that takes a state inputed by the user and outputs certain information about that state.
 
 ### Grading:  
-
 <table>
   <tr>
     <th>Row</th>
@@ -160,7 +157,6 @@ The overall idea of this submission was to create a program that takes a state i
 The overall idea of this submission was to create a program that simulates a fishing game to prevent from being bored. 
 
 ### Grading:  
-
 <table>
   <tr>
     <th>Row</th>
@@ -171,19 +167,19 @@ The overall idea of this submission was to create a program that simulates a fis
   <tr>
     <td><strong>Program Function and Purpose</strong></td>
     <td>1/1</td>
-    <td>The video response succesfully shows the input and output of the program, which was to use certain keyboard keys such as a and d to move the boat, and eventually add to a total count of fish if the hook comes into contact with one. THe function / purpose were also explicit, with the purpose being to reduce boredom, and the function being to simulate a fishing game.</td>
+    <td>The video response effectively demonstrates the input and output of the program which allows the user to move the boat using specific keyboard keys such as a and d, and then increase a total count of fish when the hook comes into contact with one. The objective and function of the program were also clearly stated, with the objective being to alleviate boredom, and the function being to simulate a fishing game.</td>
     <td></td>
   </tr>
   <tr>
     <td><strong>Data Abstraction</strong></td>
     <td>1/1</td>
-    <td>The program and response includes the use of a list ( (<code>fishtypes</code>) ), and the purpose it serves. The list is in the form of an array that stores the total amount of fish caught by the user. Later, the list is also shown to be used to output the total number of fish of the different types that were caught by the user.</td>
+    <td>The written response demonstrates the implementation of a list, referred to as <code>fishtypes</code>, and explains its purpose. The list is in the form of an array and it is used to store the total number of fish caught by the user. The response also shows how the list is used later on to output the total number of fish of different types that were caught by the user.</td>
     <td></td>
   </tr>
   <tr>
     <td><strong>Managing Complexity</strong></td>
     <td>1/1</td>
-    <td>The written response succesfully writes how a list serves to reduce complexity. The student doesn't say what would happen without the usage of a list. They don't say how they would likely have to resort to the use of individual variables to store each fish and the number of that fish caught, which would be complicated and annoying, especially if they wanted to add more types of fish in the future.</td>
+    <td>The written response effectively explains how the utilization of a list simplifies the program. The student does not specify what the alternative would have been without the use of a list but it's explained that it would have been more complicated and annoying as it would have required the use of individual variables to store each type of fish caught, which would be tedious, especially if more types of fish were added in the future.</td>
     <td>CB says that they actually got it because the student DOES respond that without the list, they would have to resort to individual variables.</td>
   </tr>
   <tr>
