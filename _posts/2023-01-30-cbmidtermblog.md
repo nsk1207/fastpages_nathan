@@ -57,4 +57,4 @@ I was having trouble understanding what ASCII did and I had to search it up. I d
 
 ### Overall Reflection
 
-Something I noticed with collegeboard tests are that they like to test a lot of logic and "flow" questions. Being able to carefully interpret what type of questions is going to be important in order to get a 5 on the exam. Lots of it is common sense, but they like to trick you. I think with constant practice and reviewing, doing well on the Multiple Choice section is doable. 
+Something I noticed with collegeboard tests are that they like to test a lot of logic and "flow" questions. Being able to carefully interpret what type of questions is going to be important in order to get a 5 on the exam. Lots of it is common sense, but they like to trick you. I think with constant practice and reviewing, doing well on the Multiple Choice section is doable. I am pretty pleased with the score I got on the test, as many of it reflects the things we've done in class. I will continually review the concepts I struggled with, and do my best to score a 50/50 on both this trimester's final exam and the AP Exam. 
