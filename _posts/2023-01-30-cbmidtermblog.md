@@ -1,7 +1,8 @@
 ---
 toc: true
-title: Collegeboard MC Part 2
-layout: default
+layout: post
+title: CB MC 2 
+comments: true
 ---
 
 ## Here is my overall score on the MC. I got a 45/50, which is a 90
