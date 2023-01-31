@@ -32,10 +32,10 @@ Delete: Delete existing word when a user presses the “new word button”
 | Category | Explanation |
 | ------------- |  ------------- |
 | Program Purpose and Function | The purpose of my program is to entertain the user with a word-guessing game. |
-| Data Abstraction | Uses several lists to store the number of attempts the user has had in trying to guess the word |
+| Data Abstraction | Uses several lists to store the number of attempts the user has had in trying to guess the word. The users will also be stored in a database that will be transferred into a line that is returned in connection with the leaderboard. I will identify the name of the variable that is representing the list through the written response, and I will describe where the data is being contained and how it is later grabbed.|
 | Managing Complexity | The project uses lists to store the user’s guesses, which is more efficient than having independent variables. In addition, API usage is present. |
-| Procedural Abstraction |  The procedure update_userguess uses sequencing, selection and iteration to keep track of the user’s progress in guessing the word. Once the progress made is equal to the word randomly generated, the timer would end for the user. | 
-| Algorithm Implementation |  The procedure above is my main algorithim, although it could use some fine tuning. | 
+| Procedural Abstraction |  The procedure update_userguess uses sequencing, selection and iteration to keep track of the user’s progress in guessing the word. Once the progress made is equal to the word randomly generated, the timer would end for the user. I will use sequencing through giving instructions on what should be displayed depending on the users input. I will use selection by having the program seeing what people have inputted and giving back a result. I will use iterations by having the program log the time and dispalying it. | 
+| Algorithm Implementation |  The procedure above is my main algorithim, although it could use some fine tuning. I explained this row a bit in row 4 too. | 
 | Testing |  I will show 2 different words being generated | 
 
 ### Video Plans
