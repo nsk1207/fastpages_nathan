@@ -53,3 +53,8 @@ Again, I didn't get this question wrong, but it took me some time to answer. Ess
 ![]({{site.baseurl}}/q50.png)
 
 I was having trouble understanding what ASCII did and I had to search it up. I didn't get the question wrong, but I just wanted to research more. Its basically a standard data-encoding format for electronic communication between computers. 
+
+
+### Overall Reflection
+
+Something I noticed with collegeboard tests are that they like to test a lot of logic and "flow" questions. Being able to carefully interpret what type of questions is going to be important in order to get a 5 on the exam. Lots of it is common sense, but they like to trick you. I think with constant practice and reviewing, doing well on the Multiple Choice section is doable. 
