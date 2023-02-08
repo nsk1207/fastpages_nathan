@@ -110,7 +110,7 @@ This lesson has taught me a lot about why some people don't use technology. Ther
     - Female voice may be the most profitable method 
 
 - Algorithms that Influence Our Decisions
-   - Some algorithms, such as Netflix, Google, Apple, etc. will use forms of advertising in order to grab the user’s attention
+   - Some algorithms, such as Google, Apple, etc. will use forms of advertising in order to grab the user’s attention
    - Netflix can show the user with a “You Might Also Like” category, and a % match with what shows they watched in the past and what they liked
    - YouTube generates related videos to what you watched in the past as well
    - Google is able to see past things you searched up and may give you advertisements on certain items, persuading the user to buy something
@@ -119,11 +119,11 @@ Are HP Computers Racist?
 
 1) Does the owner of the computer think this was intentional?
 
-After watching the video and observing the owner’s reaction, the owner definitely believes that this was intentional. This is seen by how he explains to the viewers what he has tried to do and how he even asks his co-worker (who is white) to try it out herself. He seems very shocked that while nothing happens when he is in front of the camera, when the co-worker comes into view, everything works as it should and only stops when he gets into clear view of the camera. Although at first glance it may look like that the creators of this product intentionally did this, I personally don’t believe that this was done on purpose and was simply a designing and testing error on their part.
+After watching the video and observing the owner’s reaction, the owner definitely believes that this was intentional. This is seen by how he explains to the viewers what he has tried to do and how he even asks his white co-worker to try it out herself. He seems in awe that nothing happens when his face is on the screen opposed to his co worker. Although at first glance it may look like that the creators of this product intentionally did this, I personally don’t believe that this was done intentially but that it was just a testing error. 
 
 2) How do you think this happened?
 
-While this computer may have been tested on/had trial runs, most of the tests were likely conducted with white subjects or people who have lighter skin. Because of how limited the diversity of the test subjects were, this could have caused the computer to be “confused” or to not do anything whenever the owner (who has darker skin) came into the camera’s view. One way that this could have been avoided would be to also test the computer on people with darker skin/different color schemes, as this way, the creators of the computer can make any adjustments accordingly before officially releasing it to the market where everyone can use it without an issue.
+I think most of the tests were done with white or lighter skin people opposed to darker people and this ultimtely lead to not testing the darker skinned people. One way this can be fixed is testing people of many different skin tones and that way, the creators can adjust or change things before releasing it so that it works for everyone. 
 
 3) Is this harmful? Was it intended to be harmful or exclude? Should it be corrected?
 
@@ -131,7 +131,7 @@ This issue should definitely be corrected by going through a series of more test
 
 4) What would you or should you do to produce a better outcome?
 
-I would get many test subjects of a variety of backgrounds and have them sit in front of the camera to see if it does anything. Based on the results of that trial run, I  can make necessary adjustments to the computer and test it again to see if the change improved the overall outcome. I would continue testing the computer over and over again until I can clearly see that it works for anybody regardless of their skin color. By testing it numerous times and making adjustments, this will ensure that the product will be released into the market for anybody to use without any malfunctions as a result of a testing error. 
+I would get as much test subjects as possible and make sure to test everyone before releasing it to the public. Testing a wide range of skin tones will be important and I can make adjustments and make sure that the overall outcome is the same for everyone. That way, no problems will be detected. Once this is achieved, it can be released to the public without any problems. 
 
 Reflection:
 Being able to see other peoples perspectives on computing bias was intereseting and connecting the dicussion with everyday things we use like Tik Tok. It was also a very engaging lesson and helped me learn to not make testing mistakes on my own projects like the CPT. I will make sure to test all my algorithims before making sure everything is good to go. 
