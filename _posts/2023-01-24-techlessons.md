@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-title: 5.1 and 5.2
+title: Unit 5 Collegeboard Notes
 comments: true
 ---
 
@@ -36,7 +36,7 @@ comments: true
     - Technology (laptops, cell phones, etc.)
         - Without tech, it can be hard to complete certain tasks that require online tools. Especially due to the pandemic, technology has become a staple in education. 
 
-## 5.1: Computing Effects (The Benefits and Drawbacks)
+## 5.1: Computing Effects (The Benefits and Drawbacks) 
 1. Many tasks that are already handled by computers can be improved as technology improves without many downsides to human involvement.
 2. Online tools and materials help us understand content better. For example, there are many math tools that can help a person understand something better. 
 3. Technology can help prevent violence and bring peace 
@@ -94,3 +94,73 @@ One concern that I have is that as technology continues to advance, people who a
 ## 5.2 Reflection
 This lesson has taught me a lot about why some people don't use technology. There are a variety of reasons, main ones being that some can't afford it, some don't have accessibility, and some willingly don't use it. The digital divide can potentially be concering due to the growing divide between people who choose to use technology and those who don't, which can ultimtely lead to a uneven distribution of information. Overall, this lesson was very informing. 
 
+## 5.3: Class Circle Talk
+- Facebook vs. TikTok
+    - TikTok is more for young adults/teenagers while Facebook is more for the older generations
+    - Facebook is considered a place to get important information about today’s world (politics, sports, etc.) while TikTok is directed to entertain its audiences (shorts videos, memes, etc.)
+    - The younger generation may not find Facebook entertainting and vice versa
+    - This could be corrected by having both apps include content that could be entertaining/interesting to both age groups and not just one or the other
+    - Tik Tok users have a shorter attention span, which is why they may be more inclined to use tik tok
+
+- Virtual Assistants Having Female Voices
+    - Some people may simply believe that the female voice sounds more better to the ear
+    - Brings in more money if the voice is soothing to their audience
+    - Some people historically connect this to women rights a century ago (women mainly provided assitance); potential controversy
+    - For google, siri, etc., default is female voice
+    - Female voice may be the most profitable method 
+
+- Algorithms that Influence Our Decisions
+   - Some algorithms, such as Netflix, Google, Apple, etc. will use forms of advertising in order to grab the user’s attention
+   - Netflix can show the user with a “You Might Also Like” category, and a % match with what shows they watched in the past and what they liked
+   - YouTube generates related videos to what you watched in the past as well
+   - Google is able to see past things you searched up and may give you advertisements on certain items, persuading the user to buy something
+
+Are HP Computers Racist?
+
+1) Does the owner of the computer think this was intentional?
+
+After watching the video and observing the owner’s reaction, the owner definitely believes that this was intentional. This is seen by how he explains to the viewers what he has tried to do and how he even asks his co-worker (who is white) to try it out herself. He seems very shocked that while nothing happens when he is in front of the camera, when the co-worker comes into view, everything works as it should and only stops when he gets into clear view of the camera. Although at first glance it may look like that the creators of this product intentionally did this, I personally don’t believe that this was done on purpose and was simply a designing and testing error on their part.
+
+2) How do you think this happened?
+
+While this computer may have been tested on/had trial runs, most of the tests were likely conducted with white subjects or people who have lighter skin. Because of how limited the diversity of the test subjects were, this could have caused the computer to be “confused” or to not do anything whenever the owner (who has darker skin) came into the camera’s view. One way that this could have been avoided would be to also test the computer on people with darker skin/different color schemes, as this way, the creators of the computer can make any adjustments accordingly before officially releasing it to the market where everyone can use it without an issue.
+
+3) Is this harmful? Was it intended to be harmful or exclude? Should it be corrected?
+
+This issue should definitely be corrected by going through a series of more tests in order to ensure this doesn't happen again. It could potentially come off as harmful and can mislead others to have radical opinions about the company. This can lead to online conflicts and potential societal divison. 
+
+4) What would you or should you do to produce a better outcome?
+
+I would get many test subjects of a variety of backgrounds and have them sit in front of the camera to see if it does anything. Based on the results of that trial run, I  can make necessary adjustments to the computer and test it again to see if the change improved the overall outcome. I would continue testing the computer over and over again until I can clearly see that it works for anybody regardless of their skin color. By testing it numerous times and making adjustments, this will ensure that the product will be released into the market for anybody to use without any malfunctions as a result of a testing error. 
+
+Reflection:
+Being able to see other peoples perspectives on computing bias was intereseting and connecting the dicussion with everyday things we use like Tik Tok. It was also a very engaging lesson and helped me learn to not make testing mistakes on my own projects like the CPT. I will make sure to test all my algorithims before making sure everything is good to go. 
+
+
+### 5.4
+1) We have all experienced Crowdsourcing by using external data through API’s, namely RapidAPI. This data has influenced how we code and shown possibilities in obtaining and analyzing data. Discuss APIs you have used.
+
+There are a few APIS I have used in the past. I have tried a recipe one, and an urban dictionary one. The urban dicitionary fits perfeclty with my CPT project as the wordle game generates infinite words. However, a problem could be the difficulty of words. Therefore, I could potentially create my own API and take inspireation from Mr Morts jokes and covid APIS, and can help us connect our frontend and backend. 
+
+2) We have all participated in code Crowdsourcing by using GitHub. Many of you have forked from the Teacher repository, or exchanged code with fellow students. Not only can we analyze GitHub code, but we can obtain profiles and history about the persons coding history. What is the biggest discovery you have found in GitHub?
+
+With Github, I am able to see how many commits people made to any repo. This can help see who is doing work and how much they did it. I also figured out that the dark green shades indicate more commits in a certain day compared to the light green commits which means that less work was done on that day. I want to be able to show my teacher constant commits and have consistent squres; this can be an example of crowd sourcing and how it influences the desiscions we make in order to fufill something. 
+
+3) Kaggle datasets for code and science exploration. The avenue of data points us youtube or netflix channels. Analyzing crowd data helps us make decisions. Exam top 10 to 20. Did you see anything interesting?
+
+I found it interesting that many of the data sets in the top 10 - 20 are familiar to me and probably many other people, as we use these data sets very often in our daily lives. Some of the data sets I saw included Netflix, Spotify, and YouTube, which makes sense, considering how we use these apps for entertainment and education. I was not that impressed with these results due to the overuse of them.
+
+4) CompSci has 150 ish principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+
+One way of crowdsourcing in our classroom environment is a survey about a particulur csp lesson idea. It can have different interactive ideas on there, and a survey is a good way to gather this data. I could potentially initiate this by having people fill out a quick survey and have specific intructions about what to write in order to get genuine, reliable results. 
+
+5) What about Del Norte crowdsourcing? Could your project be better with crowdsourcing?
+
+Our project could be better with crowdsourcing because we would be able to see what the general population at DNHS likes to play. We could send out a survey on social media, discord server, etc. and gather results from a very diverse crowd of students. This allows for more inclusivity and could help with a potential leaderboard based on our games. Preferences to timed games, point games, etc. can help us understand what our audience likes. 
+
+6) What kind of data could you capture at N@tM to make evening interesting? Perhaps use this data to impress Teachers during finals week.
+
+One way of data we can collect is user opinion on what games they want to play. We could let them play a round Wordle, Trivial, etc. and get feedback on how our game was produced. This allows for a more interactive experience between the developers and the users. Before N@tM, our group could even have the teachers do the same thing and ask them the same questions, which will make the teachers more interested in our project and more excited for us to present.
+
+5.4: Reflection
+I thought the class discussion/lesson was interesting as we got to see everday examples of crowdsourcing and how our APCSP class can utilize crowdsourcing. In addition, we got to see the multiple perspectives on the topic, and it was very interesting to hear from many different people. 
