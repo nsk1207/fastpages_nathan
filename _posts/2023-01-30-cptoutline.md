@@ -9,13 +9,12 @@ comments: true
 Our project is an arcade simultation with popular recreations of games in the past. Users can register and compete with other players to get on top of leaderboards. We will have 5 different games, all of which takes knowledge/inspiration from APCSP. 
 
 ### My Role
-I am the scrum master of our team. My game is a Word game, which takes inspiration from WORDLE. The purpose is to challenge the user to a fun word guessing game and see in how many tries they are able to guess the unknown word. 
+I am the scrum master of our team. My game is a Wordle inspired game in which users can challenge themselves to a word guessing game. 
 
 ### My Game
 ![]({{site.baseurl}}/wordgame.png)
 
-Here is a prototype of my game. Essentially, the user will have an option to either guess the word, or ask the program for a new word. In my game, I will make it so that everytime the user asks for a hint, they will receive a letter in the unkwown word. They will keep playing until they get it right. I plan to have a timer which will eventually be connected to a leaderboard. In addition, maybe a counter of how many times the user guessed incorrectly. 
-
+Here is a prototype of my game. Essentially, the user will have an option to either guess the word or play again by reloading. In my game, I will make it so that everytime the user wants a hint, it will return it in gray, green or yellow, just like wordle. They have 6 tries. I want to format it similarly to wordle with the boxes and the keyboard at the bottom. 
 
 ### CRUD (Create, Read, Update, Delete) Concepts
 
@@ -35,7 +34,7 @@ Delete: Delete existing word when a user presses the “new word button”
 I plan on showing: 
 
 - A screen that gives the user an option to press the “play” button
-- Once the user has pressed play, a new screen will show with the program telling the user to start guessing, and the timer starts
+- Once the user has pressed play, a new screen will show with the program telling the user to start guessing
 - Also want to show the guess count going up
 - Specific messages like "wrong" or "correct"
 - Show me winning and losing
