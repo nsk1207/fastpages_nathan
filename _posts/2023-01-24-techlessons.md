@@ -219,6 +219,9 @@ Use of GPL License for Fastpages and Group Flask and Github Pages Website
 - Balancing open access with the need to protect intellectual property
 - Fostering a community of learning and innovation in coding
 
+My License
+![]({{site.baseurl}}/hfdsoaih.png)
+
 ### 5.6
 Describe PII you have seen on project in CompSci Principles.
 - Password usage in example CPT project
