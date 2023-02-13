@@ -91,10 +91,10 @@ In certain scenarios, paper can slow down the changes in how the tech world is e
 
 One concern that I have is that as technology continues to advance, people who are unable to afford technology will be left in the past. This wil create a larger gap in the digital divide, as more people don't have access to technology. This can be detrimental socially as well. It can potentially create conflicts as some people may think outsiders of technology are "different" or something. Exclusion can occur, which is never a good thing. 
 
-## 5.2 Reflection
+### 5.2 Reflection
 This lesson has taught me a lot about why some people don't use technology. There are a variety of reasons, main ones being that some can't afford it, some don't have accessibility, and some willingly don't use it. The digital divide can potentially be concering due to the growing divide between people who choose to use technology and those who don't, which can ultimtely lead to a uneven distribution of information. Overall, this lesson was very informing. 
 
-## 5.3: Class Circle Talk
+### 5.3: Class Circle Talk
 - Facebook vs. TikTok
     - TikTok is more for young adults/teenagers while Facebook is more for the older generations
     - Facebook is considered a place to get important information about today’s world (politics, sports, etc.) while TikTok is directed to entertain its audiences (shorts videos, memes, etc.)
@@ -166,7 +166,9 @@ One way of data we can collect is user opinion on what games they want to play. 
 I thought the class discussion/lesson was interesting as we got to see everday examples of crowdsourcing and how our APCSP class can utilize crowdsourcing. In addition, we got to see the multiple perspectives on the topic, and it was very interesting to hear from many different people. 
 
 
-# 5.5 
+### 5.5 
+
+Class Discussion: In class, we talked about how we felt about people using other peoples work. We talked about Youtube, copyright, etc. and it helped me learn more about how we feel about our privacy online. 
 
 When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in your personal blog.
 Types of Licenses:
@@ -224,7 +226,6 @@ Describe PII you have seen on project in CompSci Principles.
 - Names, emails, birthdays
 
 What are your feelings about PII and your personal exposure?
-
 1. Violation of Privacy Rights
 - PII includes sensitive information such as full name, address, social security number, etc.
 - Sharing this information without consent can be a violation of privacy rights
@@ -243,7 +244,6 @@ What are your feelings about PII and your personal exposure?
 - Describe good and bad passwords? What is another step that is used to assist in authentication.
 
 Characteristics of Good Passwords
-
 Length
 - Longer passwords are more secure
 
@@ -255,7 +255,6 @@ Uniqueness
 
 Regular Updates
 - Regularly changing passwords adds an extra layer of security
-
 
 Characteristics of Bad Passwords
 
@@ -277,8 +276,6 @@ Additional Step for Authentication
     - Adds an extra layer of security by requiring a second form of identification, such as a fingerprint or code sent to a phone
     - Increases the difficulty for unauthorized access to an account
 
-Try to describe Symmetric and Asymmetric encryption.
-
 Symmetric Encryption
 - Symmetric encryption uses the same key for both encryption and decryption of data
 Process
@@ -298,7 +295,6 @@ Advantages
 - Suitable for exchanging small amounts of data, such as keys for symmetric encryption
 
 Provide an example of encryption we used in AWS deployment.
-
 - SSH into AWS Box
     - Secure Shell (SSH) is a protocol used for secure access to remote servers
     - Use in AWS Deployment
@@ -322,9 +318,7 @@ Example
 Result
 - If the recipient enters their information, the phisher can use it to access their accounts and steal their money or sensitive data
 
-
 Other Phishing Techniques
-
 - Email Spoofing
     - Creating fake emails that appear to be from a trusted source, such as a bank or a friend
 - Social Engineering
