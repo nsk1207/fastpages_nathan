@@ -1,3 +1,10 @@
+---
+toc: true
+layout: post
+title: My N@TM Experience
+comments: true
+---
+
 # My N@TM Experience!
 My N@TM experience was very fun. I personally found it better this tri than last tri because a lot of the CS projects I viewed increased in professionalism and skill. I saw a variety of arcade websites, car websites, and much more. Being able to see my peer's joy when presenting their projects was also enjoyable to see. In addition, the parents and Mr Mort and Mr Yeung enjoying everything made the experience very pleasant. In addition, it was interesting to see other N@TM Projects outside of CSP as well. 
 

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Collegeboard Grading part 3
-layout: default
+layout: base
 ---
 
 # This week, I need to work on being more thorough and specific with my grading in order to bring up my last week's grad (0.9) to a 1. 
