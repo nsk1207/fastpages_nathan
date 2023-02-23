@@ -6,7 +6,7 @@ comments: true
 ---
 
 # My N@TM Experience!
-My N@TM experience was very fun. I personally found it better this tri than last tri because a lot of the CS projects I viewed increased in professionalism and skill. I saw a variety of arcade websites, car websites, and much more. Being able to see my peer's joy when presenting their projects was also enjoyable to see. In addition, the parents and Mr Mort and Mr Yeung enjoying everything made the experience very pleasant. In addition, it was interesting to see other N@TM Projects outside of CSP as well. 
+My N@TM experience was very fun. I personally found it better this tri than last tri because a lot of the CS projects I viewed increased in professionalism and skill. I saw a variety of arcade websites, car websites, and much more. The 'vibe' of this tri's N@TM felt better as well because I thought there were a lot more kids and parents there from other classes this time. Being able to explain our arcade project to students and parents was fun because not only did we get praise for our hard work, but we also got some contructive criticism on how we can improve the project. In addition, it was interesting to see other N@TM Projects outside of CSP as well. 
 
 ### First Project I viewed: An arcade website created by Max, Jishnu, Alan, and Evan (Period 3 of Mr. Mortenson)
 ![]({{site.baseurl}}/snake.png)
@@ -25,4 +25,20 @@ This was another arcade website that I found really good. They each had function
 ### Fourth Project I viewed: A GPA/Academic Stats website from Alex Lu's group (Period 5 Mr. Yeung)
 ![]({{site.baseurl}}/toolkit.png)
 
-In my opinion, this was one of the best projects I saw at N@TM. Everyone had a clear frontend to backend connection and was able to explain the purpose of each of their things. My favorite feature was probably the class rank calculator where we had to input GPA, classes, etc. and it would generate a ranking for each student. It seemed like an enhanced version of Synergy, the gradebook. 
+In my opinion, this was one of the best projects I saw at N@TM. Everyone had a clear frontend to backend connection and was able to explain the purpose of each of their things. My favorite feature was probably the class rank calculator where we had to input GPA, classes, etc. and it would generate a ranking for each student. It seemed like an enhanced version of Synergy, the gradebook. In addition, they had a schedule feature where students could input their schedules 
+
+### Fifth Project I viewed: A car website created by a period from Period 3 Mr Mortenson Group
+![]({{site.baseurl}}/car.png)
+
+This was another car website that I saw at N@TM. It helps people find their dream car and it takes people through a series of filters and quizzes. Users are also able to sign in and create a user for themselves and add cars they're looking at on their wish list. Users are also able to leave reviews on the website once they sign in. The frontend of this website was very professional with their home tab on the tab and the logo they had. They also had clear functioanlity, user input/output, and met most collegeboard criteria. 
+
+
+### Sixth Project I viewed: A heart artwork from AP Art Studio
+![]({{site.baseurl}}/heart.png)
+
+This was an interesting art piece to me. The vivid colors of red and burgundy and the details of the heart really made this piece stick out to me. I also liked the message of the art piece which was to spread and give love to each other.
+
+### Seventh Project I viewed: A turtle cup from Ceramics
+![]({{site.baseurl}}/turtle.png)
+
+I really liked this project because it was very unique from the other ceramics I saw. The person made it so that you could not only carry it by the handle, but you could also put stuff in it. I thought that was really creative. I also liked the smooth texture of the project and the way it glistened. The mixture of green and blue was also very nice, in my opinon. 
