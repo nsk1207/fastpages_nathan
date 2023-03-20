@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      7 min read
     
 </span></p>
 
@@ -211,6 +211,24 @@ window.onload = wrap_img;
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(0, 'id', 'INTEGER', 1, None, 1)
+(1, '_name', 'VARCHAR(255)', 1, None, 0)
+(2, '_uid', 'VARCHAR(255)', 1, None, 0)
+(3, '_password', 'VARCHAR(255)', 1, None, 0)
+(4, '_dob', 'DATE', 0, None, 0)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     
 
@@ -267,6 +285,28 @@ window.onload = wrap_img;
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(1, 'Thomas Edison', 'toby', 'sha256$pES4PKpl7o8oRD3f$f31cf221d36deea5a7af57f0d883706c77ae89059057c3cd6ef72ab429300060', '1847-02-11')
+(2, 'Nikola Tesla', 'niko', 'sha256$2jMSq8cQusKCSWlc$11fd74bc6dd924b331871639c34b6cfa0b347c183dea75f2563dfe19949effd6', '2023-03-18')
+(3, 'Alexander Graham Bell', 'lex', 'sha256$zK4iQtllFL1AzO4p$d20a9d6f54983a2234d23e4ec5794c63f4eae4114ed75f552de2c36738acfdc0', '2023-03-18')
+(4, 'Eli Whitney', 'whit', 'sha256$RVaL6TtYa9TfcLzG$48227601861a94a94a2c1a17e9621b8c2c1f52fec645d8ba371c17f8abfe4c41', '2023-03-18')
+(5, 'Indiana Jones', 'indi', 'sha256$OBkwp54IazY9DKPd$57927f998f7c5f70b332558849437a150abe139f7ce43fe9a4eae62e0b4c1df8', '1920-10-21')
+(6, 'Marion Ravenwood', 'raven', 'sha256$u8a39LO3lAUahEit$56e8b1aa5d1da7e382089bab14933034be11253e3dcbd22317f985e7429d2ba4', '1921-10-21')
+(7, 'Nathan', 'nshk', 'sha256$aD9kWf4pWYb4jLS7$3b18ffd678525f1776e6de22f8dd700606c2e7b01a47bfc881bcfc58c8a8197c', '2005-12-07')
+(8, 'Nathan Kim', 'nsk', 'sha256$26NpqoRE6yBkQosH$154c9afaf2eb582e64050314cf04b5285a94987360bd44bf1d5e0909b9fa662a', '2005-12-07')
+(9, '', '', 'gothackednewpassword123', '2023-03-18')
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -327,10 +367,24 @@ window.onload = wrap_img;
     <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     
-<span class="c1">#create()</span>
+<span class="n">create</span><span class="p">()</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>A new user record nsk1207 has been created
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -396,10 +450,24 @@ window.onload = wrap_img;
     <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     
-<span class="c1">#update()</span>
+<span class="n">update</span><span class="p">()</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The row with user id nsk1207 the password has been successfully updated
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -457,10 +525,24 @@ window.onload = wrap_img;
     <span class="n">cursor</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     
-<span class="c1">#delete()</span>
+<span class="n">delete</span><span class="p">()</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The row with uid nsk1207 was successfully deleted
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -476,8 +558,8 @@ window.onload = wrap_img;
 <blockquote>
 <p>CRUD and Schema interactions from one location by running menu. Observe input at the top of VSCode, observe output underneath code cell.</p>
 <ul>
-<li>Why does the menu repeat?</li>
-<li>Could you refactor this menu?  Make it work with a List?</li>
+<li>Why does the menu repeat? Because of a recursion. As the function continues, it calls itself, thus the menu is always repeating</li>
+<li>Could you refactor this menu?  Make it work with a List? Yes because recursion leads to stackflow. </li>
 </ul>
 </blockquote>
 
@@ -508,6 +590,66 @@ window.onload = wrap_img;
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"Please enter c, r, u, or d"</span><span class="p">)</span> 
     <span class="n">menu</span><span class="p">()</span> <span class="c1"># recursion, repeat menu</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">menu</span><span class="p">()</span> <span class="c1"># start menu</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Perform Jupyter 'Run All' prior to starting menu"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Please enter c, r, u, or d
+Please enter c, r, u, or d
+A new user record maxwu has been created
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">menu</span><span class="p">():</span>
+    <span class="n">db_funcs</span> <span class="o">=</span> <span class="p">[</span> 
+            <span class="p">(</span><span class="s1">'c'</span><span class="p">,</span> <span class="n">create</span><span class="p">),</span>
+            <span class="p">(</span><span class="s1">'r'</span><span class="p">,</span> <span class="n">read</span><span class="p">),</span>
+            <span class="p">(</span><span class="s1">'u'</span><span class="p">,</span> <span class="n">update</span><span class="p">),</span>
+            <span class="p">(</span><span class="s1">'d'</span><span class="p">,</span> <span class="n">delete</span><span class="p">),</span>
+            <span class="p">(</span><span class="s1">'s'</span><span class="p">,</span> <span class="n">schema</span><span class="p">)</span>
+        <span class="p">]</span>
+    
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">operation</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter: (C)reate (R)ead (U)pdate or (D)elete or (S)chema"</span><span class="p">)</span>
+    
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">operation</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span> <span class="c1"># Escape Key</span>
+            <span class="k">return</span>
+        
+        <span class="n">found</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">for</span> <span class="n">func</span> <span class="ow">in</span> <span class="n">db_funcs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">func</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="n">operation</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+                <span class="n">found</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="n">func</span><span class="p">[</span><span class="mi">1</span><span class="p">]()</span>
+    
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">found</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Please enter c, r, u, or d"</span><span class="p">)</span> 
         
 <span class="k">try</span><span class="p">:</span>
     <span class="n">menu</span><span class="p">()</span> <span class="c1"># start menu</span>
@@ -516,6 +658,30 @@ window.onload = wrap_img;
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(1, 'Thomas Edison', 'toby', 'sha256$pES4PKpl7o8oRD3f$f31cf221d36deea5a7af57f0d883706c77ae89059057c3cd6ef72ab429300060', '1847-02-11')
+(2, 'Nikola Tesla', 'niko', 'sha256$2jMSq8cQusKCSWlc$11fd74bc6dd924b331871639c34b6cfa0b347c183dea75f2563dfe19949effd6', '2023-03-18')
+(3, 'Alexander Graham Bell', 'lex', 'sha256$zK4iQtllFL1AzO4p$d20a9d6f54983a2234d23e4ec5794c63f4eae4114ed75f552de2c36738acfdc0', '2023-03-18')
+(4, 'Eli Whitney', 'whit', 'sha256$RVaL6TtYa9TfcLzG$48227601861a94a94a2c1a17e9621b8c2c1f52fec645d8ba371c17f8abfe4c41', '2023-03-18')
+(5, 'Indiana Jones', 'indi', 'sha256$OBkwp54IazY9DKPd$57927f998f7c5f70b332558849437a150abe139f7ce43fe9a4eae62e0b4c1df8', '1920-10-21')
+(6, 'Marion Ravenwood', 'raven', 'sha256$u8a39LO3lAUahEit$56e8b1aa5d1da7e382089bab14933034be11253e3dcbd22317f985e7429d2ba4', '1921-10-21')
+(7, 'Nathan', 'nshk', 'sha256$aD9kWf4pWYb4jLS7$3b18ffd678525f1776e6de22f8dd700606c2e7b01a47bfc881bcfc58c8a8197c', '2005-12-07')
+(8, 'Nathan Kim', 'nsk', 'sha256$26NpqoRE6yBkQosH$154c9afaf2eb582e64050314cf04b5285a94987360bd44bf1d5e0909b9fa662a', '2005-12-07')
+(9, '', '', 'gothackednewpassword123', '2023-03-18')
+(10, 'Nathan', 'maxwu', 'mdiasojd', '1887-05-19')
+Error while executing the INSERT: UNIQUE constraint failed: users._uid
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -530,9 +696,9 @@ window.onload = wrap_img;
 </h1>
 <ul>
 <li>Add this Blog to you own Blogging site.  In the Blog add notes and observations on each code cell.</li>
-<li>In this implementation, do you see procedural abstraction?</li>
+<li>In this implementation, do you see procedural abstraction? Yes CRUD concepts show this because the CRUD functions can simply be called. </li>
 <li>In 2.4a or 2.4b lecture<ul>
-<li>Do you see data abstraction?  Complement this with Debugging example.</li>
+<li>Do you see data abstraction?  Complement this with Debugging example. Yes, there is data abstraction in both examples of databases being created. There are classes and objects used to simplify how the data is stored in the database. There are also libraries used, which are imported in order to simplify the code and to allow complex operations to the used without the need for thousands of lines of code. </li>
 <li>Use Imperative or OOP style to Create a new Table or do something that applies to your CPT project.</li>
 </ul>
 </li>
