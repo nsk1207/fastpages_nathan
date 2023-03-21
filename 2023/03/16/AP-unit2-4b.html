@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      9 min read
     
 </span></p>
 
@@ -165,11 +165,10 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses PRAGMA statement to read schema.</p>
 </blockquote>
-<p>Describe Schema, here is resource <a href="https://www.sqlite.org/index.html">Resource</a>- What is a database schema?</p>
+<p>Describe Schema, here is resource <a href="https://www.sqlite.org/index.html">Resource</a>- What is a database schema? A database schema is a blueprint that defines the structure of a database. It describes the organization and interrelationships among the various data elements or tables that make up the database.</p>
 <ul>
-<li>What is the purpose of identity Column in SQL database?</li>
-<li>What is the purpose of a primary key in SQL database?</li>
-<li>What are the Data Types in SQL table?</li>
+<li>What is the purpose of identity Column in SQL database? The purpose of an identity column is to provide a unique identifier for each row in the table, without requiring the user to manually specify a value for that column.</li>
+<li>What is the purpose of a primary key in SQL database? A primary key is a column or set of columns that uniquely identifies each row in a table.</li>
 </ul>
 
 </div>
@@ -242,10 +241,10 @@ window.onload = wrap_img;
 <p>Uses SQL SELECT statement to read data</p>
 </blockquote>
 <ul>
-<li>What is a connection object?  After you google it, what do you think it does?</li>
-<li>Same for cursor object?</li>
-<li>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object?</li>
-<li>Is "results" an object?  How do you know?</li>
+<li>What is a connection object?  After you google it, what do you think it does? A connection object is an object that represents a connection to a database. It is used to establish and manage a connection to a database and allows the programmer to execute commands and retrieve data from the database.</li>
+<li>Same for cursor object? A cursor object is an object that provides a way to iterate over the rows of a result set returned by a SQL query. It allows the programmer to fetch data from a database row by row, and perform operations on each row as it is retrieved.</li>
+<li>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object? The attributes that are in the conn object include special variables, function variables, class variables, in_transaction, isolation_level, row_factory, and total_changes. The attributes taht are in the cursor object include special variables, function variables, arraysize, connection, description, lastrowid, row_factory, and rowcount.</li>
+<li>Is "results" an object?  How do you know? Yes it is an object because it is set equal to cursor.execute()</li>
 </ul>
 
 </div>
@@ -323,8 +322,8 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses SQL INSERT to add row</p>
 <ul>
-<li>Compore create() in both SQL lessons.  What is better or worse in the two implementations?</li>
-<li>Explain purpose of SQL INSERT.   Is this the same as User <strong>init</strong>?</li>
+<li>Compore create() in both SQL lessons.  What is better or worse in the two implementations? In the create function of 2.4a the function uses SQLite database to take in the data that the user inputs to create the new users. The create function of 2.4b uses SQLAlchemy to create the new users. 2.4a function can be better used for more simple projects where as 2.4b function can be used for more complex projects.</li>
+<li>Explain purpose of SQL INSERT.   Is this the same as User <strong>init</strong>? The SQL INSERT statement is used to insert new rows or records into a database table. The User init method is used to create a new user record in the database.</li>
 </ul>
 </blockquote>
 
@@ -401,9 +400,9 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses SQL UPDATE to modify password</p>
 <ul>
-<li>What does the hacked part do?</li>
-<li>Explain try/except, when would except occur?</li>
-<li>What code seems to be repeated in each of these examples to point, why is it repeated?</li>
+<li>What does the hacked part do? Checks to make sure the length of the new password is at least 2 characters. If it is not then the code presumes that they were hacked</li>
+<li>Explain try/except, when would except occur? Try/except is used for the errors that could occur. Except would occur if there is an error that did not pass through the try block of code.</li>
+<li>What code seems to be repeated in each of these examples to point, why is it repeated? Try/except is repeated. This is repeated because there are many different places where checking to ensure everything is inputted correctly is necessary.</li>
 </ul>
 </blockquote>
 
@@ -484,8 +483,8 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses a delete function to remove a user based on a user input of the id.</p>
 <ul>
-<li>Is DELETE a dangerous operation?  Why?</li>
-<li>In the print statemements, what is the "f" and what does {uid} do?</li>
+<li>Is DELETE a dangerous operation?  Why? DELETE can be dangerous in the case that you delete all of your data and do not have it anywhere else.</li>
+<li>In the print statemements, what is the "f" and what does {uid} do? f is used to embed expressions inside of string literals. The {uid} is used to input the user id that is being used in the code.</li>
 </ul>
 </blockquote>
 
@@ -685,11 +684,21 @@ A new user record nathan has been created
 <a class="anchor" href="#Hacks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hacks<a class="anchor-link" href="#Hacks"> </a>
 </h1>
 <ul>
-<li>Add this Blog to you own Blogging site.  In the Blog add notes and observations on each code cell.</li>
-<li>In this implementation, do you see procedural abstraction? Yes CRUD concepts show this because the CRUD functions can simply be called. </li>
-<li>In 2.4a or 2.4b lecture<ul>
-<li>Do you see data abstraction?  Complement this with Debugging example. Yes, there is data abstraction in both examples of databases being created. There are classes and objects used to simplify how the data is stored in the database. There are also libraries used, which are imported in order to simplify the code and to allow complex operations to the used without the need for thousands of lines of code. </li>
-<li>Use Imperative or OOP style to Create a new Table or do something that applies to your CPT project.</li>
+<li>
+<p>Add this Blog to you own Blogging site.  In the Blog add notes and observations on each code cell.</p>
+</li>
+<li>
+<p>In this implementation, do you see procedural abstraction? Yes CRUD concepts show this because the CRUD functions can simply be called.</p>
+</li>
+<li>
+<p>In 2.4a or 2.4b lecture</p>
+<ul>
+<li>
+<p>Do you see data abstraction?  Complement this with Debugging example. Yes, there is data abstraction in both examples of databases being created. There are classes and objects used to simplify how the data is stored in the database. There are also libraries used, which are imported in order to simplify the code and to allow complex operations to the used without the need for thousands of lines of code.</p>
+</li>
+<li>
+<p>Use Imperative or OOP style to Create a new Table or do something that applies to your CPT project.</p>
+</li>
 </ul>
 </li>
 </ul>
