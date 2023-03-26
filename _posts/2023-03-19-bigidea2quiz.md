@@ -5,13 +5,8 @@ title: Big Idea 2 Quiz
 comments: true
 ---
 
-## Here is my overall score on the MC. I got a 23/25, which is a 92%
-![]({{site.baseurl}}/myscore.png)
-
-
-## Question 2: Advantage of lossless over lossy compression (Skill 1.D)
-![]({{site.baseurl}}/q2.png)  
-I got this question wrong because I didn't realize that the ability to keep data secure is not a primary function of a compression algorithm. B is correct (A lossless compression algorithm can guarantee reconstruction of original data, while a lossy compression algorithm cannot.) because lossless compression algorithms are guaranteed to be able to reconstruct the original data, while lossy compression algorithms are not. It's important for me to really understand this because it was one of the lessons we specifically gone over during class. 
+## Here is my overall score on the MC. I got a 24/25, which is a 96%
+![]({{site.baseurl}}/quizss.png)
 
 ## Question 21: Museum photograph spreadsheet (Skill 2.B)
 ![]({{site.baseurl}}/q21.png)  
