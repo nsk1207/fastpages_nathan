@@ -1,3 +1,10 @@
+---
+toc: true
+layout: post
+title: CSUSM
+comments: true
+---
+
 # Stem at CSUSM 
 
 ### Speaker Notes
