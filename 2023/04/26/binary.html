@@ -94,6 +94,12 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#github-pages-hacks">Github Pages Hacks</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#conversion-exercises">Conversion Exercises</a></li>
+<li class="toc-entry toc-h2"><a href="#convert-binary-to-decimal-in-javascript-using-the--mathpow--method">Convert Binary to decimal in JavaScript using the  Math.pow()  method.</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#the-decimal-of-101000-is">The decimal of 101000 is.</a></li>
+<li class="toc-entry toc-h4"><a href="#the-decimal-of-11101010101-is">The decimal of 11101010101 is.</a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h2"><a href="#binary-math-hacks">Binary Math Hacks</a></li>
 </ul>
 </li>
@@ -168,6 +174,37 @@ window.onload = wrap_img;
       }
     </script>
   
+
+
+
+
+   <title>Convert Binary to decimal in JavaScript.</title>
+
+
+   <h2>
+<a class="anchor" href="#convert-binary-to-decimal-in-javascript-using-the--mathpow--method" aria-hidden="true"><span class="octicon octicon-link"></span></a>Convert Binary to decimal in JavaScript using the <i> Math.pow() </i> method.</h2>
+   <h4>
+<a class="anchor" href="#the-decimal-of-101000-is" aria-hidden="true"><span class="octicon octicon-link"></span></a>The decimal of 101000 is.</h4>
+   <div id="decimal1"></div>
+   <h4>
+<a class="anchor" href="#the-decimal-of-11101010101-is" aria-hidden="true"><span class="octicon octicon-link"></span></a>The decimal of 11101010101 is.</h4>
+   <div id="decimal2"></div>
+   <script>
+      let decimal1 = document.getElementById("decimal1");
+      let decimal2 = document.getElementById("decimal2");
+      function DecimalToBinary( binary ) {
+      let decimal = 0;
+      let l = binary.length;
+      for (let i = l - 1; i >= 0; i--) {
+         if ( binary[i] == '1' )
+         decimal += Math.pow( 2, l - 1 - i );
+      }
+      return decimal;
+      }
+      decimal1.innerHTML = DecimalToBinary( "101000" );
+      decimal2.innerHTML = DecimalToBinary( "11101010101" );
+   </script>
+
 
 
 <h2 id="binary-math-hacks">
